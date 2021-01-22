@@ -1,8 +1,12 @@
-
+import React from 'react';
+import Button from './components/Button';
 
 function App() {
   return (
-    <h1>hello</h1>
+    <div>
+      <h1>hello</h1>
+      <Button />
+    </div>
   );
 }
 
