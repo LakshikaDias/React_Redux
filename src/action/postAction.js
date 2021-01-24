@@ -1,5 +1,5 @@
 // import the type variable
-import { FETCH_BUTTON_CLICK } from './type';
+import { FETCH_BUTTON_CLICKED } from './types';
 
 
 
@@ -8,7 +8,7 @@ export const fetchPosts = () => {
     //this is the real action
     return {
         //small description for the action
-        type: FETCH_BUTTON_CLICK,
+        type: FETCH_BUTTON_CLICKED,
         //send the data(from API or hardcode)
         payload: [
             {

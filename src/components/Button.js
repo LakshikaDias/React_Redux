@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { fetchPosts } from '../action/postAction';
-import { bindActionCreaters } from 'redux';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 class Button extends Component {
@@ -15,7 +15,7 @@ class Button extends Component {
 
 // second parameter of connect function 
 function matchDispatchToProps(dispatch) {
-    return bindActionCreaters({ fetchPosts: fetchPosts }, dispatch)
+    return bindActionCreators({ fetchPosts: fetchPosts }, dispatch)
 }
 
 // connect function (this function has two parameters)
