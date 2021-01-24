@@ -9,6 +9,7 @@ const middleware = [thunk];
 const initialState = {};
 
 //create the store(for that use "createStore" function)
+// we can create store into the /src/index.js file also
 const store = reateStore(
     //parameters
     rootReducer,
